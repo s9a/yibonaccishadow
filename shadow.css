@@ -1,0 +1,8 @@
+.yibonaccishadow {
+  text-shadow: var(--yibonaccishadow);
+  box-shadow: var(--yibonaccishadow);
+}
+
+[data-yibonaccishadow] {
+  --yibonaccishadow: attr(data-yibonaccishadow);
+}
